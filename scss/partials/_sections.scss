@@ -93,6 +93,17 @@
 /* -------------------------------------------------------------------------- */
 /* PRENATAL EVAl SECTION */
 /* -------------------------------------------------------------------------- */
+.prenatal-eval {
+  background: url('../../img/prenatal-bg@2x.jpg') center / cover;
+  display: flex;
+  align-items: center;
+  padding: 40px 20px;
+
+  // .section-img {
+  //   max-width: 358px;
+  //   margin: 0 auto;
+  // }
+}
 
 /* -------------------------------------------------------------------------- */
 /* DIAGNOSTIC OVERVIEW */
