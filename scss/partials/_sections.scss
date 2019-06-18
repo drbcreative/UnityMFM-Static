@@ -39,8 +39,27 @@
 }
 
 /* -------------------------------------------------------------------------- */
-/* HEALTHIER SECTION */
+/* BIO SECTION */
 /* -------------------------------------------------------------------------- */
+.bio {
+  background: url('../../img/bio-bg@2x.jpg') center / cover;
+  min-height: 300px;
+  // max-height: 571px;
+  display: flex;
+  align-items: center;
+  padding: 40px 20px;
+
+  .section-info {
+    p {
+      max-width: 600px;
+    }
+  }
+
+  .section-img {
+    max-width: 358px;
+    margin: 0 auto;
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* COMPREHENSIVE SECTION */
