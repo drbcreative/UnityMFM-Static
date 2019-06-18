@@ -18,7 +18,7 @@
   align-items: center;
   width: 100%;
   margin-bottom: 0.5rem;
-  // border-radius: 5px;
+  border-radius: 5px;
   @include btn-fade;
 }
 
@@ -73,6 +73,7 @@
     text-decoration: none;
   }
 }
+
 .ui-btn-dark-accent {
   background-color: $color-dark-accent;
   border: 1px solid $color-dark-accent;
@@ -113,14 +114,14 @@
 }
 
 .ui-btn-light-ol {
-  background-color: transparent;
-  border: 1px solid $color-light;
-  color: $color-light;
+  background-color: $color-white;
+  border: 1px solid $color-main;
+  color: $color-main;
 
   &:hover {
     color: $color-dark;
     background-color: rgba($color-light, 0.5);
-    border: 1px solid rgba($color-light, 0.5);
+    border: 1px solid rgba($color-main, 0.5);
     text-decoration: none;
   }
 }
