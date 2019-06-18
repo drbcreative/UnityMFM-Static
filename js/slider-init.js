@@ -18,6 +18,7 @@ $(document).ready(function () {
       {
         breakpoint: 992,
         settings: {
+          arrows: false,
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true
@@ -27,6 +28,7 @@ $(document).ready(function () {
       {
         breakpoint: 500,
         settings: {
+          arrows: false,
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true

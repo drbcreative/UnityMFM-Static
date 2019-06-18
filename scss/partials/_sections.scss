@@ -6,7 +6,7 @@
 /* HERO SECTION */
 /* -------------------------------------------------------------------------- */
 .hero {
-  background: url('../../img/hero-bg@2x.jpg') 650px bottom / cover;
+  background: url('../img/hero-bg@2x.jpg') center bottom / cover;
   height: 100vh;
   max-height: 740px;
   position: relative;
@@ -42,7 +42,7 @@
 /* BIO SECTION */
 /* -------------------------------------------------------------------------- */
 .bio {
-  background: url('../../img/bio-bg@2x.jpg') center / cover;
+  background: url('../img/bio-bg@2x.jpg') center / cover;
   min-height: 300px;
   // max-height: 571px;
   display: flex;
@@ -65,7 +65,7 @@
 /* COMPREHENSIVE SECTION */
 /* -------------------------------------------------------------------------- */
 .comprehensive {
-  background: url('../../img/comprehensive-bg@2x.jpg') center / cover;
+  background: url('../img/comprehensive-bg@2x.jpg') center / cover;
   min-height: 400px;
   position: relative;
   padding: 40px 20px;
@@ -94,7 +94,7 @@
 /* PRENATAL EVAl SECTION */
 /* -------------------------------------------------------------------------- */
 .prenatal-eval {
-  background: url('../../img/prenatal-bg@2x.jpg') center / cover;
+  background: url('../img/prenatal-bg@2x.jpg') center / cover;
   display: flex;
   align-items: center;
   padding: 40px 20px;
@@ -165,14 +165,14 @@
 
     .testimonial-wrapper {
       &::before {
-        content: url('../../img/open-quotes.png');
+        content: url('../img/open-quotes.png');
         position: relative;
         // top: -4rem;
         display: inline-block;
       }
 
       &::after {
-        content: url('../../img/close-quotes.png');
+        content: url('../img/close-quotes.png');
         position: relative;
         top: -1.5rem;
         // margin-left: .5rem;

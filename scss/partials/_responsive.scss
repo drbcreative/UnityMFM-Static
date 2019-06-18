@@ -25,7 +25,7 @@
   /* TOPBAR ***************************************************************** */
   /* HERO ******************************************************************* */
   .hero {
-    background: url('../../img/hero-bg@2x.jpg') right bottom / cover;
+    background: url('../img/hero-bg@2x.jpg') right bottom / cover;
     height: 100vh;
   }
 
@@ -48,6 +48,7 @@
 
   /* PRENATAL EVAl SECTION ************************************************** */
   /* DIAGNOSTIC OVERVIEW **************************************************** */
+
   /* TESTIMONIAL SECTION **************************************************** */
   .testimonial {
     height: 80vh;
@@ -98,7 +99,7 @@
 
   /* HERO ******************************************************************* */
   .hero {
-    background: url('../../img/hero-bg@2x.jpg') right bottom / cover;
+    background: url('../img/hero-bg@2x.jpg') right bottom / cover;
     height: 100vh;
     max-height: 740px;
     position: relative;
@@ -162,34 +163,15 @@
     display: flex;
     align-items: center;
 
-    // .dx-slider {
-    //   // width: 80%;
-    //   // background: red;
+    .dx-slider {
+      width: 95%;
+      margin: 0 auto;
 
-    //   .slide {
-    //     display: flex;
-    //     flex-direction: column;
-    //     justify-content: center;
-    //     align-items: center;
-    //     // width: 30%;
-    //     // padding: 0 1rem;
-    //     // margin-bottom: 2rem;
-
-    //     h4 {
-    //       font-size: 150%;
-    //       text-align: center;
-    //     }
-
-    //     img {
-    //       margin-bottom: 1.5rem;
-    //     }
-
-    //     p {
-    //       text-align: center;
-    //       margin: 1rem 0;
-    //     }
-    //   }
-    // }
+      .slick-next,
+      .slick-prev {
+        display: block;
+      }
+    }
   }
 
   /* TESTIMONIAL SECTION **************************************************** */
@@ -199,7 +181,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // background: green;
     overflow: hidden;
 
     .section-info {
@@ -210,16 +191,16 @@
 
       .testimonial-wrapper {
         &::before {
-          content: url('../../img/open-quotes.png');
+          content: url('../img/open-quotes.png');
           position: relative;
-          top: -4rem;
+          top: -3rem;
           display: inline-block;
         }
 
         &::after {
-          content: url('../../img/close-quotes.png');
+          content: url('../img/close-quotes.png');
           position: relative;
-          top: -.5rem;
+          top: -1rem;
           margin-left: .5rem;
         }
 
@@ -227,8 +208,8 @@
           font-family: $font-primary;
           font-weight: 300;
           font-style: italic;
-          font-size: 37px;
-          line-height: 57px;
+          font-size: 30px;
+          line-height: 45px;
           display: inline-block;
         }
       }
