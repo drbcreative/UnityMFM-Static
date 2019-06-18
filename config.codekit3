@@ -25,14 +25,6 @@
 		"oAP": "/assets/FONT LIST.txt",
 		"oF": 0
 		},
-	"/assets/testimonial_video.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/testimonial_video.mp4",
-		"oF": 0
-		},
 	"/assets/unity_homepage_8.png": {
 		"ft": 32768,
 		"iS": 4867048,
@@ -184,6 +176,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/close-quotes.png": {
+		"ft": 32768,
+		"iS": 883,
+		"oA": 0,
+		"oAP": "/img/close-quotes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/close-quotes@2x.png": {
+		"ft": 32768,
+		"iS": 1810,
+		"oA": 0,
+		"oAP": "/img/close-quotes@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/comprehensive-bg.jpg": {
@@ -406,6 +420,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/open-quotes.png": {
+		"ft": 32768,
+		"iS": 904,
+		"oA": 0,
+		"oAP": "/img/open-quotes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/open-quotes@2x.png": {
+		"ft": 32768,
+		"iS": 1856,
+		"oA": 0,
+		"oAP": "/img/open-quotes@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/prenatal-bg.jpg": {
 		"ft": 16384,
 		"iS": 22486,
@@ -492,6 +528,28 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"/img/testimonial-bg.jpg": {
+		"ft": 16384,
+		"iS": 42236,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/testimonial-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/testimonial-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 118389,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/testimonial-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/vascular-img.jpg": {
@@ -958,6 +1016,14 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/video/testimonial_video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/video/testimonial_video.mp4",
+		"oF": 0
 		}
 	},
 "hooks": [
