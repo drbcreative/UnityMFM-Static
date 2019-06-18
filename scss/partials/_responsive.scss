@@ -31,6 +31,21 @@
 
   /* BIO ******************************************************************** */
   /* COMPREHENSIVE SECTION ************************************************** */
+  .comprehensive {
+    height: 550px;
+    padding: 60px 20px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba($color-dark, .75);
+    }
+  }
+
   /* PRENATAL EVAl SECTION ************************************************** */
   /* DIAGNOSTIC OVERVIEW **************************************************** */
   /* TESTIMONIAL SECTION **************************************************** */
@@ -113,6 +128,21 @@
 
   /* BIO ******************************************************************** */
   /* COMPREHENSIVE SECTION ************************************************** */
+  .comprehensive {
+    height: 700px;
+    padding: 40px 20px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+    }
+  }
+
   /* PRENATAL EVAl SECTION ************************************************** */
   /* DIAGNOSTIC OVERVIEW **************************************************** */
   /* TESTIMONIAL SECTION **************************************************** */
@@ -170,6 +200,21 @@
   }
 
   /* COMPREHENSIVE SECTION ************************************************** */
+  .comprehensive {
+    height: 850px;
+    padding: 40px 20px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+    }
+  }
+
   /* PRENATAL EVAl SECTION ************************************************** */
   /* DIAGNOSTIC OVERVIEW **************************************************** */
   /* TESTIMONIAL SECTION **************************************************** */

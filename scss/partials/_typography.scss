@@ -37,6 +37,21 @@ h1 {
 
 h2 {
   font-family: $font-secondary;
+  font-size: 45px; // 45px
+  line-height: 55px;
+  font-weight: 300;
+
+  &.is-bold {
+    font-weight: 700;
+  }
+
+  &.is-italic {
+    font-style: italic;
+  }
+}
+
+h3 {
+  font-family: $font-secondary;
   font-size: 2.188; // 35px
   line-height: 2.188;
   font-weight: 300;
@@ -54,7 +69,7 @@ h2 {
   }
 }
 
-h3 {
+h4 {
   font-family: $font-secondary;
   font-size: 1.875rem; // 30px
   line-height: 1.875rem;
@@ -66,7 +81,6 @@ h3 {
 }
 
 /* All Other Headers */
-h4,
 h5,
 h6 {
   font-family: $font-secondary;
