@@ -52,6 +52,14 @@
 		"oAP": "/assets/unity_website_9.xd",
 		"oF": 0
 		},
+	"/backup-temp.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/backup-temp.html",
+		"oF": 0
+		},
 	"/css/theme.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -332,6 +340,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/left-arrow.png": {
+		"ft": 32768,
+		"iS": 1032,
+		"oA": 0,
+		"oAP": "/img/left-arrow.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/left-arrow@2x.png": {
+		"ft": 32768,
+		"iS": 2159,
+		"oA": 0,
+		"oAP": "/img/left-arrow@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/logo.png": {
 		"ft": 32768,
 		"iS": 12853,
@@ -440,6 +470,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/img/right-arrow.png": {
+		"ft": 32768,
+		"iS": 1049,
+		"oA": 0,
+		"oAP": "/img/right-arrow.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/right-arrow@2x.png": {
+		"ft": 32768,
+		"iS": 1753,
+		"oA": 0,
+		"oAP": "/img/right-arrow@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/vascular-img.jpg": {
@@ -2042,7 +2094,7 @@
 			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
