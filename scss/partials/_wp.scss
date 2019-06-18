@@ -4,30 +4,38 @@
 .breadcrumbs {
   background: $color-dark;
   font-family: $font-primary;
+
   a {
     color: $color-light-accent;
+
     &:hover {
       color: $color-light;
     }
   }
+
   .current {
     color: $color-light;
   }
 }
+
 .shareme {
   font-family: $font-primary;
+
   a {
     color: $color-main;
+
     &:hover {
       color: $color-dark;
     }
   }
 }
+
 .inner-bg {
   background: url("../img/inner-bg@2x.jpg");
   background-position: center;
   background-size: cover;
 }
+
 /* -------------------------------------------------------------------------- */
 /* BANNER STYLES */
 /* -------------------------------------------------------------------------- */
@@ -35,12 +43,15 @@
   height: 400px;
   width: 100%;
 }
+
 .archive-title {
   font-variant-caps: initial;
 }
+
 .banner {
   background-color: $color-main;
 }
+
 #banner-img-wrap {
   height: 300px;
   width: 100%;
@@ -61,7 +72,8 @@
   h1 {
     color: $color-dark;
     font-family: $font-primary;
-    font-size: 3.125rem; /* 50px */
+    font-size: 3.125rem;
+    /* 50px */
     line-height: 3rem;
     font-weight: 300;
     font-style: normal;
@@ -74,7 +86,8 @@
   h6 {
     color: $color-main;
     font-family: $font-primary;
-    font-size: 2.1875rem; /* 35px */
+    font-size: 2.1875rem;
+    /* 35px */
     line-height: 2.1875rem;
     font-weight: 300;
     font-style: normal;
@@ -89,19 +102,23 @@
     padding: 80px 10px;
   }
 }
+
 /* -------------------------------------------------------------------------- */
 /* PAGE SECTION STYLES */
 /* -------------------------------------------------------------------------- */
 .pagesection {
+
   h2,
   h3,
   h4 {
     color: $color-main;
   }
+
   p:not(a) {
     font-weight: 300;
     margin-bottom: 1rem;
   }
+
   p:last-child() {
     margin-bottom: 0;
   }
@@ -153,6 +170,7 @@ img {
 .social-link-footer {
   width: 13.13px;
   height: 15px;
+
   path {
     fill: $color-light;
   }
@@ -165,6 +183,7 @@ img {
 .social-link-share {
   width: 14px;
   height: 16px;
+
   path {
     fill: $color-main;
   }
@@ -177,6 +196,7 @@ img {
 .breadcrum-home {
   width: 16px;
   height: 14px;
+
   path {
     fill: $color-light-accent;
   }
@@ -190,6 +210,7 @@ img {
   width: 30px;
   height: 30px;
   cursor: pointer;
+
   path {
     fill: $color-white;
   }

@@ -1,31 +1,14 @@
 /* -------------------------------------------------------------------------- */
 /* SECTION STYLES */
 /* -------------------------------------------------------------------------- */
-.containerish {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  height: auto;
-  padding: 0;
-}
-
-section {
-  overflow: hidden;
-}
 
 /* -------------------------------------------------------------------------- */
 /* HERO SECTION */
 /* -------------------------------------------------------------------------- */
 .hero {
-  .slide {
-    background: $color-main;
-    padding: 40px 20px;
-    height: 50vh;
-
-    .containerish {
-      display: grid;
-    }
-  }
+  background: url('../../img/hero-bg@2x.jpg') 650px bottom / cover;
+  height: 100vh;
+  max-height: 740px;
 }
 
 /* -------------------------------------------------------------------------- */

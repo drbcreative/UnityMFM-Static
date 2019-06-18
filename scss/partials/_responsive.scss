@@ -23,36 +23,12 @@
   }
 
   /* TOPBAR ***************************************************************** */
-  .topbar {
-    .containerish {
-      max-width: 100% !important;
-      display: grid;
-      grid-template-rows: auto;
-      grid-template-columns: 1fr 1fr;
-      padding: 0.2rem 0.5rem;
-
-      .col-left {
-        grid-row: 1;
-        grid-column: 1;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-      }
-
-      // .col-mid {
-      //   display: none;
-      // }
-      .col-right {
-        grid-row: 1;
-        grid-column: 2;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-      }
-    }
+  /* HERO ******************************************************************* */
+  .hero {
+    background: url('../../img/hero-bg@2x.jpg') right bottom / cover;
+    height: 100vh;
   }
 
-  /* HERO ******************************************************************* */
   /* HEALTHIER ************************************************************** */
   /* COMPREHENSIVE SECTION ************************************************** */
   /* PRENATAL EVAl SECTION ************************************************** */
@@ -77,33 +53,26 @@
     display: block;
   }
 
-  /* TOPBAR ******************************************************* */
-  .topbar {
-    .containerish {
-      grid-template-columns: max-content 1fr max-content;
-      padding: 0.2rem 1rem;
+  /* TOPBAR ***************************************************************** */
+  /* NAVBAR ***************************************************************** */
+  .nav-wrapper {
+    background: rgba($color-white, .75);
+    position: relative;
 
-      .col-left {
-        grid-row: 1;
-        grid-column: 1;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-      }
+    .container {
+      position: relative;
 
-      .col-mid {
-        grid-column: 2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+      .desktop-logo {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 240px;
+        // background: white;
 
-      .col-right {
-        grid-row: 1;
-        grid-column: 3;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
+        img {
+          width: 100%;
+          height: auto;
+        }
       }
     }
   }
@@ -123,6 +92,11 @@
 @media screen and (min-width: 1200px) {
 
   /* TOPBAR ***************************************************************** */
+  /* NAVBAR ***************************************************************** */
+  .nav-item {
+    margin-right: 1.5rem;
+  }
+
   /* HERO ******************************************************************* */
   /* HEALTHIER ************************************************************** */
   /* COMPREHENSIVE SECTION ************************************************** */

@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  $(".hero").slick({
+$(document).ready(function () {
+  $("").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: !0,
