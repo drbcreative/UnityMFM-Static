@@ -563,6 +563,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/unity_footer.jpg": {
+		"ft": 16384,
+		"iS": 67614,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/unity_footer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/vascular-img.jpg": {
 		"ft": 16384,
 		"iS": 17828,
@@ -1028,20 +1039,12 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/video/testimonial_video.mp4": {
+	"/video/testimonial_video_3.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/video/testimonial_video.mp4",
-		"oF": 0
-		},
-	"/video/testimonial_video_final.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/video/testimonial_video_final.mp4",
+		"oAP": "/video/testimonial_video_3.mp4",
 		"oF": 0
 		}
 	},
