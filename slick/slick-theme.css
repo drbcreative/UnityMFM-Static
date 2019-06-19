@@ -77,13 +77,13 @@
   right: -25px;
 }
 
-.slick-prev:before {
+/* .slick-prev:before {
   content: "←";
-}
+} */
 
-[dir="rtl"] .slick-prev:before {
+/* [dir="rtl"] .slick-prev:before {
   content: "→";
-}
+} */
 
 .slick-next {
   right: -50px;
@@ -95,13 +95,13 @@
   right: auto;
 }
 
-.slick-next:before {
+/* .slick-next:before {
   content: "→";
-}
+} */
 
-[dir="rtl"] .slick-next:before {
+/* [dir="rtl"] .slick-next:before {
   content: "←";
-}
+} */
 
 /* Dots */
 .slick-dotted.slick-slider {

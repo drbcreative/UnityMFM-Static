@@ -7,10 +7,11 @@
 /* -------------------------------------------------------------------------- */
 .hero {
   background: url('../img/hero-bg@2x.jpg') center bottom / cover;
-  height: 100vh;
+  // height: 100vh;
   max-height: 740px;
   position: relative;
   padding: 40px 20px;
+  margin-top: 225px;
 
   &::before {
     content: '';
@@ -117,6 +118,15 @@
   .dx-slider {
     // width: 80%;
     // background: red;
+
+    // .slick-next,
+    // .slick-prev {
+    //   display: block;
+    //   background-color: red;
+    //   height: 50px;
+    //   width: auto;
+    //   background: url('../../img/left-arrow.png') center / cover;
+    // }
 
     .slide {
       display: flex;
